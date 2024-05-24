@@ -4,8 +4,7 @@ function mintNFT(name, creator, description, dateCreated){
     name:name,
     creator:creator,
     description:description,
-    dateCreated:dateCreated,
-    attributes:attributes
+    dateCreated:dateCreated
   };
   nftcs.push(nft);
   console.log(`Minted:${name}`);
