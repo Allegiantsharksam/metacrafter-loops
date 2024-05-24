@@ -35,5 +35,4 @@ mintNFT("Meebit", "Larva Labs", "A 3D voxel character", "2024-01-04", { rarity: 
 mintNFT("World of Women", "WoW Foundation", "Celebrating representation and inclusivity", "2024-01-05", { rarity: "Rare", color: "Blue" });
 console.log("\nUpdated list of all NFTs:");
 listNFTs();
-console.log("\nTotal number of NFTs minted:");
-console.log(getTotalSupply());
+console.log("\nTotal number of NFTs minted:", getTotalSupply())
